@@ -1,0 +1,18 @@
+quickoverflow for Debian
+-----------------------
+
+A Command Line Tool for Unix Based Operating Systems to instantly open Stack Overflow Solution for corresponding error
+
+Tired of googling all the time by copy pasting errors and getting incorrect solutions from LLMs?
+
+QuickOverflow has a solution for that.
+
+QuickOverflow is a Command Line Tool for Linux based systems to quickly get to solutions for your errors on browser right from your terminal, without ever clicking on your browser icon.
+
+As of v3.0.1, QuickOverflow only supports Python debugging. However, support for other languages is planned and underway.
+
+
+
+
+ -- aryan <aryan@unknown>  Sat, 21 Jun 2025 07:30:47 +0530
+

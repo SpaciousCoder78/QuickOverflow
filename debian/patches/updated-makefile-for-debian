@@ -1,0 +1,37 @@
+Description: <short summary of the patch>
+ TODO: Put a short summary on the line above and replace this paragraph
+ with a longer explanation of this change. Complete the meta-information
+ with other relevant fields (see below for details). To make it easier, the
+ information below has been extracted from the changelog. Adjust it or drop
+ it.
+ .
+ quickoverflow (3.0.1-1) stable; urgency=medium
+ .
+   * Initial release. (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+Author: Aryan Karamtoth <aryankmmiv@outlook.com>
+
+---
+The information above should follow the Patch Tagging Guidelines, please
+checkout https://dep.debian.net/deps/dep3/ to learn about the format. Here
+are templates for supplementary fields that you might want to add:
+
+Origin: (upstream|backport|vendor|other), (<patch-url>|commit:<commit-id>)
+Bug: <upstream-bugtracker-url>
+Bug-Debian: https://bugs.debian.org/<bugnumber>
+Bug-Ubuntu: https://launchpad.net/bugs/<bugnumber>
+Forwarded: (no|not-needed|<patch-forwarded-url>)
+Applied-Upstream: <version>, (<commit-url>|commit:<commid-id>)
+Reviewed-By: <name and email of someone who approved/reviewed the patch>
+Last-Update: 2025-06-21
+
+--- quickoverflow-3.0.1.orig/Makefile
++++ quickoverflow-3.0.1/Makefile
+@@ -13,7 +13,7 @@ ubuntu: main.c
+ 	pipenv run pyinstaller --onefile --name search search.py
+ 	sudo mv "dist/search" "/usr/local/bin"
+ 	sudo mv "quickoflow.png" "/usr/share/icons/Humanity/apps/32"
+-	sudo mv "quickoverflow.desktop" "/home/$$USER/.local/share/applications"
++	sudo mv "quickoverflow.desktop" "$$HOME/.local/share/applications"
+ 
+ arch_linux: main.c
+ 	sudo pacman -S gcc
