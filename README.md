@@ -176,6 +176,10 @@ For a more in-depth guide, check <a href="https://github.com/SpaciousCoder78/Qui
             <td><a href="https://github.com/honeypallakonda" > Honey Pallakonda</td>
             <td>App Icon</td>
         </tr>
+        <tr>
+            <td><a href="https://github.com/pushkar-hue" > pushkar-hue</td>
+            <td>Better Exception Handling</td>
+        </tr>
     </tbody>
 </table>
 
